@@ -1,0 +1,14 @@
+.DS_Store
+[Tt]humbs.db
+
+.idea/
+
+node_modules/
+
+*.log
+logs/
+
+downloads/*
+!/downloads/.keep
+
+assets/ingested.txt

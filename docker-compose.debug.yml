@@ -1,0 +1,11 @@
+version: '3'
+services:
+  reddit-content-ingestor:
+    environment:
+      - NODE_ENV=dev
+      - NODE_OPTIONS=--inspect=0.0.0.0:16231
+    ports:
+      - 16231:16231
+    volumes:
+      - ./logs:/var/log/jobs
+    restart: "no"
